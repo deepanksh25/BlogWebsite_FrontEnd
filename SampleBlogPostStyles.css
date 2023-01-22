@@ -1,0 +1,82 @@
+#search{
+    margin-top: 26px;
+    align-self: end;
+}
+#header #Subscribe{
+    margin-top: 26px;
+}
+#header #BlogTitle{
+    margin: 26px auto 6px auto;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.wrapper{
+    background-color: white;
+    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 20px;
+    /* background-color: white;
+    border: 1px solid grey; */
+    
+    
+    grid-template-columns: 1fr 300px; 
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "ls rs";
+    
+
+}
+.leftSide{
+    grid-area: ls;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    /* border: 1px solid black; */
+}
+.rightSide{
+    grid-area: rs;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px sokid black; */
+}
+.bordered{
+    border: 1px solid grey;
+    height: 50px;
+}
+#example{
+    border: 1px solid grey;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.about{
+    background-color:rgb(165, 225, 239) ;
+}
+.Archives h3{
+    margin: 5px auto 0 5px;
+}
+.Elsewhere h3{
+    margin-bottom: 0;
+}
+.Elsewhere{margin-top: 20px;}
+.hy{
+    margin: 0 auto 0 0 ;
+    font-style: italic;
+}
+a{
+    color: blue;
+}

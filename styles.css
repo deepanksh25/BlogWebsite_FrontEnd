@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background-color: white;
+    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 650px;
+    justify-content: center;
+    background-color: white;
+    /* border: 1px solid grey; */
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 40px 150px 150px 150px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "hd hd"
+    "b1 b2"
+    "b3 b4"
+    "b5 b6";
+
+}
+#header{
+    grid-area: hd;
+    border: none;
+    filter: none;
+}
+#b1{
+    grid-area: b1;
+}
+#b2{
+    grid-area: b2;
+}
+#b3{
+    grid-area: b3;
+}
+#b4{
+    grid-area: b4;
+}
+#b5{
+    grid-area: b5;
+}
+#b6{
+    grid-area: b6;
+}
+
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   filter: drop-shadow(0 0 0.3rem grey);
+    /* height: 100px;
+    width: 100px; */
+   border: 1px solid grey;
+} 
+#search{
+    margin-top: 26px;
+    align-self: end;
+}
+#header #Subscribe{
+    margin-top: 26px;
+}
+#header #BlogTitle{
+    margin: 26px auto 6px auto;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.Heading ,.world ,.Design ,.data ,.continue, .desc{
+    margin: 5px;
+    margin-left: 10px;
+}
+#heading{
+    display: none;
+    
+}
+.desc , .data , .Design{
+    font-size: small;
+}
+.desc , .data , .Design,.continue{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.world{
+color:rgb(60, 110, 159) ;
+}
+.Design{
+    color: rgb(55, 154, 36);
+}
+.desc{
+margin-top: 3px;
+}
+.data{
+    margin-top: 3px;
+    margin-top: 2px;
+    color: grey;
+}
+.Heading{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+}
+.continue{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-top: 17px;
+    
+    
+   
+}
+a{
+    color: rgb(56, 103, 196);
+}
